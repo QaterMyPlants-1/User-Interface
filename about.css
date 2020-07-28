@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 62.5%;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,102 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* End of reset */
+
+* {
+    border: 1px solid black;
+}
+
+header {
+    background-color: #fff9ef;
+    color: #757c57;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 4% 2%;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+}
+
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Spartan, sans-serif;;
+    font-size: 1rem;
+    color: black;
+}
+
+.about {
+    font-family: Spartan, sans-serif;
+    background-color: #B2AD74;
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-bottom: 3%;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+
+.about h3 {
+    font-size: 1.6rem;
+}
+
+.first-plants {
+    background-image: url(./images/green-leaf-plant-with-pots-3076897.jpg);
+    height: 200px;
+    background-size: medium;
+}
+
+.second-plants {
+    background-image: url(./images/green-potted-cactus-plants-2138073.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-size: medium;
+}
+
+.sign-up {
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+}
+.sign-up h2 {
+    font-family: "Playfair Display", serif;
+}
+
+.sign-up p {
+    font-size: 1.2rem;
+    font-family: Spartan, serif;
+    margin-bottom: 3%;
+}
+
+.sign-up a {
+    font-size: 1.2rem;
+    font-family: Spartan, serif;
+    color: #fff9ef;
+    background-color: #757c57;
+    padding: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #747C57;
+    height: 100px;
 }
