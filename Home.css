@@ -91,7 +91,8 @@ html{
 }
 .headerContainer p {
     line-height: 3rem;
-    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
     width: 80%;
     margin: 0% 0% 2%;
 }
@@ -172,3 +173,161 @@ footer {
   footer .fa-instagram {
     color: #fff9ef;
   }
+
+  /*-------------------------- MEDIA QUERY 500PX ---------------------------*/
+  @media (max-width: 500px){
+    .topContainer{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 7vh;
+        width: 100%;
+        background-color: #757c57;
+
+    }
+    .topContainer .title p{
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: 1rem;
+        line-height: 1rem;
+        font-size: 1.2rem;
+        color: #fff9ef;
+    }
+    .topContainer .title h1{
+        font-family: 'Playfair Display', serif;
+        color: #fff9ef;
+        letter-spacing: .6rem;
+        font-size: 2rem;
+    }
+    .topContainer nav{
+        width: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1%;
+    }
+    .topContainer nav a{
+        color:#fff9ef;
+        padding: 1% .8% 1% 2.5%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: .5rem; 
+    }
+    .topContainer nav a:hover{
+        background-color: #fff9ef;
+        color: #757c57;
+        padding: 1% .8% 1% 2.5%;
+        border-radius: 5%;
+    }
+
+    .headerContainer{
+        display:flex;
+        flex-direction: column;
+        height: 68vh;
+        align-items: center;
+        background-color: #fff9ef;
+    }
+    .headerContainer img{
+        width:100%;
+        height:40vh;
+        object-fit: cover;
+    }
+    .headerContainer .text{
+        width:95%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #fff9ef;
+    }
+    .headerContainer h2{
+        font-size: 2.5rem;
+        letter-spacing: .2rem;
+        margin: 3%;
+        font-family: 'Playfair Display', serif;
+    }
+    .headerContainer p {
+        line-height: 3rem;
+        letter-spacing: .3rem;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0% 0% 2%;
+    }
+    .headerContainer .buttonParent{
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 2% 40%;
+        padding: 1%;
+        width: 15%;
+    }
+    .headerContainer .buttonParent a{
+        text-decoration: none;
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: .1rem;
+        font-size: 1.3rem;
+        color:black;
+        padding: 5%;
+    }
+    .headerContainer .buttonParent:hover{
+        background-color: #B1AD74;
+        border: none;
+    }
+    .headerContainer .buttonParent a:hover{
+        color: #fff9ef;
+    }
+
+    .bottom img{
+        border-top: 15px solid #fff9ef;
+        height: 35vh;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .quote {
+        background-color: #fff9ef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+        padding: 5% 3%;
+    }
+    .quote h2{
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1rem;
+        margin: 1%;
+    }
+    .quote p{
+        font-size: 1.2rem;
+        letter-spacing: .3rem;
+        line-height: 3rem;
+    }
+
+    footer {
+        background-color: #757c57;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+        color: #fff9ef;
+    }
+    footer .fa {
+        padding: 20px;
+        font-size: 2rem;
+        width: 0.5%;
+        text-decoration: none;
+    }
+    footer .fa-facebook {
+        color: #fff9ef;
+    }
+    footer .fa-twitter {
+        color: #fff9ef;
+    }
+    footer .fa-instagram {
+        color: #fff9ef;
+    }
+}
