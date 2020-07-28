@@ -52,6 +52,7 @@ table {
 
 * {
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
 header {
@@ -76,7 +77,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-family: Spartan, sans-serif;;
+    font-family: Spartan, sans-serif;
     font-size: 1rem;
     color: black;
 }
@@ -99,20 +100,13 @@ h2 {
     margin-bottom: 3%;
 }
 
-.about h3 {
+h3 {
     font-size: 1.6rem;
 }
 
 .first-plants {
     background-image: url(./images/green-leaf-plant-with-pots-3076897.jpg);
     height: 200px;
-    background-size: medium;
-}
-
-.second-plants {
-    background-image: url(./images/green-potted-cactus-plants-2138073.jpg);
-    height: 200px;
-    background-attachment: fixed;
     background-size: medium;
 }
 
@@ -141,7 +135,47 @@ h2 {
     text-decoration: none;
 }
 
+.second-plants {
+    background-image: url(./images/green-potted-cactus-plants-2138073.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    background-color: #FFF9EF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.team-member {
+    width: 30%;
+    /* max-width: 400px; */
+    text-align: center;
+    font-family: Spartan, sans-serif;
+    padding: 2%;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 90%;
+
+}
+
 footer {
     background-color: #747C57;
     height: 100px;
+}
+
+.team-member h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.4rem;
 }
