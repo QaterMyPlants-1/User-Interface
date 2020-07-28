@@ -72,6 +72,7 @@ html{
 }
 .headerContainer img{
     width:50%;
+    object-fit: cover;
 }
 .headerContainer .text{
     width:50%;
