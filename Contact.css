@@ -71,7 +71,7 @@ body{
 
 input[type=text], select, textarea {
     width: 100%; 
-    color:#fff9ef;
+    color:black;
     padding: 12px; 
     background-color: #fff9ef;
     border: 1px solid black; 
