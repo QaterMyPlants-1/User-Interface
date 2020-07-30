@@ -250,7 +250,7 @@ footer {
     .headerContainer{
         display:flex;
         flex-direction: column;
-        height: 70vh;
+        height: 73vh;
         align-items: center;
         background-color: #fff9ef;
     }
@@ -261,6 +261,7 @@ footer {
     }
     .headerContainer .text{
         width:95%;
+        margin: 2% 0% 0%;
         display:flex;
         flex-direction: column;
         justify-content: center;
