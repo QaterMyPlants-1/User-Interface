@@ -9,7 +9,7 @@ document.write(`<header class="topContainer">
         <a href='home.html'>HOME</a>
         <a href='about.html'>ABOUT</a>
         <a href='team.html'>TEAM</a>
-        <a href="https://watermoreplants.netlify.app/signup">REGISTER</a>
+        <a href="https://water-my-plants-lambda.vercel.app/signup">REGISTER</a>
         <a href='https://watermoreplants.netlify.app/'>LOG IN</a>
     </nav>
     
